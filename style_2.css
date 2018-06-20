@@ -1,0 +1,83 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ border-radius: 20px;
+ outline: 2px solid green;
+ }
+#wrapper{
+ width: 970px;
+ background-color:  rgb(68, 68, 216);
+ margin: 50px auto;
+ border-radius: 0px;
+}
+#header{
+ min-height: 40px;
+ background-color: rgb(212, 37, 37);
+ margin: 10px 10px 10px 10px;
+ overflow: hidden;
+}
+.header_text{
+    font-size: 30px;
+    color: silver;
+     Margin: 0 0 0 15px;
+}
+#navigation{
+background-color: rgba(0, 56, 56, 0.726);
+}
+#navigation, .nav_header{
+ min-height: 250px;
+ width: 200px;
+ margin: 0 10px;
+}
+.nav_header{
+    color: lightblue;
+    margin: 25px;
+}
+.in_list {
+    margin: 0 0 0 50px;
+}
+#main_content{
+ min-height: 450px;
+ width: 733px;
+ background-color: darkblue;
+}
+.mc_head{
+    color: lightblue;
+    font-size: 20px;
+    margin: 15px 0 0 15px
+}
+.subcontents2{
+    color: lightblue;
+    font-size: 15px;
+    margin: 15px 0 0 35px
+}
+#advertisement{
+ min-height: 50px;
+ background-color: gray;
+ margin: 10px 10px 50px 10px;
+
+}
+#navigation, #main_content{
+    display: inline-block;
+    vertical-align: top;
+}
+.sc_text{
+    color: lightblue;
+    font-size: 15px;
+    margin: 15px 0 0 15px;
+}
+ sc_text_li{
+    color: lightblue;
+    font-size: 15px;
+    margin: 15px 0 0 15px;
+ }
+span{
+    color:yellowgreen
+}
+.ad_text{
+    color: lightblue;
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px
+}
